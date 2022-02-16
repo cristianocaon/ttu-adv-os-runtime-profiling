@@ -24,3 +24,11 @@ Running conditions:
 3. Algorithms/Programs A and B concurrent
 
 You present the analysis of your results and findings on comparing the algorithms under different running conditions.
+
+## Instructions
+
+To run the program, clone this repository to your local environment: `git clone https://github.com/cristianocaon/aos_project.git`
+
+Change directory to the repository: `cd aos_project`
+
+Run main script: `python3 init.py`

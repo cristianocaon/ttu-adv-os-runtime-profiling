@@ -27,7 +27,7 @@ You present the analysis of your results and findings on comparing the algorithm
 
 ## Instructions
 
-To run the program, clone this repository to your local environment: `git clone https://github.com/cristianocaon/aos_project.git`
+To run the program, clone this repository to your local environment: `git clone https://github.com/cristianocaon/AOS_project.caon.git`
 
 Change directory to the repository: `cd aos_project`
 

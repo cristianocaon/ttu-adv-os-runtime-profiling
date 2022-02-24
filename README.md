@@ -31,7 +31,7 @@ Follow the steps to execute the program:
 
 1. Clone this repository to your local environment: `git clone https://github.com/cristianocaon/AOS_project.caon.git`
 
-2. Change directory to the repository: `cd aos_project`.
+2. Change directory to the repository: `cd AOS_project.caon`.
 
 3. If applicable, download the dependencies mentioned below.
 

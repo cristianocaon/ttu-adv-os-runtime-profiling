@@ -1,6 +1,5 @@
-# Python program for implementation of Quicksort Sort
-
 def partition(arr, low, high):
+
     i = (low - 1)		 # index of smaller element
     pivot = arr[high]	 # pivot
 
@@ -16,9 +15,43 @@ def partition(arr, low, high):
     return (i + 1)
 
 
+def merge_sort(arr):
+
+    if len(arr) > 1:
+        i = j = k = 0
+        mid = len(arr) // 2
+        left = arr[:mid]
+        right = arr[mid:]
+        merge_sort(left)
+        merge_sort(right)
+
+        # Copy data to temp arrays left[] and right[]
+        while i < len(left) and j < len(right):
+            if left[i] < right[j]:
+                arr[k] = left[i]
+                i += 1
+            else:
+                arr[k] = right[j]
+                j += 1
+            k += 1
+
+        # Checking if any element was left
+        while i < len(left):
+            arr[k] = left[i]
+            i += 1
+            k += 1
+
+        while j < len(right):
+            arr[k] = right[j]
+            j += 1
+            k += 1
+
+
 def quick_sort(arr, low, high):
+
     if len(arr) == 1:
         return arr
+
     if low < high:
         # pi is partitioning index, arr[p] is now
         # at right place

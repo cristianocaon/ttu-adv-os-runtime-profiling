@@ -39,9 +39,9 @@ Follow the steps to execute the program:
 
 User/system-level information will show up for each of the running conditions:
 
-a. Running QuickSort alone
-b. Running MergeSort alone
-c. Running both concurrently
+1. Running QuickSort alone
+2. Running MergeSort alone
+3. Running both concurrently
 
 ## Dependencies
 

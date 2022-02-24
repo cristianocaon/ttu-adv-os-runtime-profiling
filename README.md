@@ -27,21 +27,24 @@ You present the analysis of your results and findings on comparing the algorithm
 
 ## Instructions
 
-To run the program, clone this repository to your local environment: `git clone https://github.com/cristianocaon/AOS_project.caon.git`
+Follow the steps to execute the program:
 
-Change directory to the repository: `cd aos_project`.
+1. Clone this repository to your local environment: `git clone https://github.com/cristianocaon/AOS_project.caon.git`
 
-If needed, download the dependencies mentioned below.
+2. Change directory to the repository: `cd aos_project`.
 
-Run main script: `python3 init.py`.
+3. If applicable, download the dependencies mentioned below.
+
+4. Run main script: `python3 init.py`.
 
 User/system-level information will show up for each of the running conditions:
 
-1. Running QuickSort alone
-2. Running MergeSort alone
-3. Running both concurrently
+a. Running QuickSort alone
+b. Running MergeSort alone
+c. Running both concurrently
 
 ## Dependencies
 
-- psutil: psutil (process and system utilities) is a cross-platform library for retrieving information on running processes and system utilization (CPU, memory, disks, network, sensors) in Python. Run `pip install psutil`.
-- humanize: This modest package contains various common humanization utilities, like turning a number into a fuzzy human-readable duration ("3 minutes ago") or into a human-readable size or throughput. Run `pip install humanize`.
+_psutil_: psutil (process and system utilities) is a cross-platform library for retrieving information on running processes and system utilization (CPU, memory, disks, network, sensors) in Python. Run `pip install psutil`.
+
+_humanize_: This modest package contains various common humanization utilities, like turning a number into a fuzzy human-readable duration ("3 minutes ago") or into a human-readable size or throughput. Run `pip install humanize`.

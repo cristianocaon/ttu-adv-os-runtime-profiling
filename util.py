@@ -2,14 +2,6 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 
-def print_array(arr, sorting=None):
-    intro_msg = f"\nSorted array with {sorting}:" if sorting else "\nUnsorted array:"
-    print(intro_msg)
-
-    for i in range(len(arr)):
-        print(arr[i], end=" ")
-
-
 def print_results(data, iteration):
     print("--- Runtime: %s seconds ---" % data["runtime"][iteration])
     print("--- CPU Usage: %.1f%% ---" % data["cpu_usage"][iteration])

@@ -29,13 +29,13 @@ You present the analysis of your results and findings on comparing the algorithm
 
 Follow the steps to execute the program:
 
-1. Clone this repository to your local environment: `git clone https://github.com/cristianocaon/AOS_project.caon.git`
+1. Clone this repository to your local environment: `git clone https://github.com/cristianocaon/AOS_project.caon.git`.
 
 2. Change directory to the repository: `cd AOS_project.caon`.
 
 3. If applicable, download the dependencies mentioned below.
 
-4. Run main script: `python3 init.py`.
+4. Run main script: `python3 main.py`.
 
 User/system-level information will show up for each of the running conditions:
 
@@ -47,4 +47,7 @@ User/system-level information will show up for each of the running conditions:
 
 _psutil_: psutil (process and system utilities) is a cross-platform library for retrieving information on running processes and system utilization (CPU, memory, disks, network, sensors) in Python. Run `pip install psutil`.
 
-_humanize_: This modest package contains various common humanization utilities, like turning a number into a fuzzy human-readable duration ("3 minutes ago") or into a human-readable size or throughput. Run `pip install humanize`.
+_seaborn_: Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics. Run `pip install seaborn`.
+
+_matplotlib_: Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python. Matplotlib makes easy things easy and hard things possible. Run `pip install matplotlib`.
+

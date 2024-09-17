@@ -29,9 +29,9 @@ You present the analysis of your results and findings on comparing the algorithm
 
 Follow the steps to execute the program:
 
-1. Clone this repository to your local environment: `git clone https://github.com/cristianocaon/AOS_project.caon.git`.
+1. Clone this repository to your local environment: `git clone git@github.com:cristianocaon/ttu-os-runtime-profiling.git`.
 
-2. Change directory to the repository: `cd AOS_project.caon`.
+2. Change directory to the repository: `cd ttu-os-runtime-profiling`.
 
 3. If applicable, download the dependencies mentioned below.
 
